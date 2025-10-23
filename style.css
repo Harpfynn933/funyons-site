@@ -1,58 +1,132 @@
 body {
-    background-color: #E5D1B3;
+    background-color: #fffffe;
 }
 
-h1, nav {
+h1,
+nav {
+    background-color: #2d334a;
+    color: #fffffe;
+    padding: 10px;
+    border-radius: 10px;
     text-align: center;
 }
 
 nav {
-    
     padding: 15px;
     padding-bottom: 50px;
 }
 
+a {
+    color: #fffffe;
+    text-decoration: none;
+}
 
+a:hover {
+    color: #ffd803;
+}
 
-h2, p {
+h2,
+p {
     text-align: left;
-}
-
-.turtle{
-    width: 1000px;
-    height: 667px;
-    padding: 20px;
-    padding-bottom: 100px;
-}
-
-.unicorn{
-    float: left;
-    width: 992px;
-    height: 792px;
-    padding: 20px;
-}
-.section1header {
-    background-color: #523F2D;
+    background-color: #2d334a;
+    color: #fffffe;
+    padding: 15px;
     border-radius: 10px;
-    color: #ffffff;
-    padding: 1px;
-    padding-left: 5px;
-}
-@media (min-width: 500px){
-
-    .section1header {
-    background-color: #ffffff;
-    border-radius: 10px;
-    color: #000;
-    padding: 10px;
-   }
-
 }
 
-@media (min-width: 768px){
-
+p {
+    letter-spacing: .5px;
 }
 
-@media (min-width: 1024px){
+.turtle {
+    width: 800px;
+    height: 533px;
+    padding: 20px;
+    padding-bottom: 80px;
+}
+
+.unicorn {
+    width: 700px;
+    height: 560px;
+    padding: 20px;
+}
+
+@media (min-width: 500px) {
+    body {
+        background-color: #ffd803;
+    }
+
+    p {
+        font-weight: bolder;
+        font-size: 150%;
+    }
+
+    a {
+        color: #bae8e8;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .turtle {
+        width: 400px;
+        height: 267px;
+    }
+
+    .unicorn {
+        width: 404px;
+        height: 324px;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: #bae8e8;
+    }
+
+    a {
+        color: #fffffe;
+        font-size: 100%;
+        text-decoration: none;
+
+    }
+
+    .turtle {
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: #2d334a;
+
+    }
+
+    h2,
+    p {
+        background-color: #ffd803;
+        color: #2d334a;
+    }
+
+    p {
+        font-weight: 100;
+        font-size: 100%;
+    }
+
+    a {
+        color: #fffffe;
+        font-size: 100%;
+        text-decoration: none;
+    }
+
+    .turtle {
+        width: 800px;
+        height: 533px;
+    }
+
+    .unicorn {
+        width: 700px;
+        height: 560px;
+    }
 
 }
